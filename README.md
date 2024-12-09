@@ -1,9 +1,19 @@
 # modelisation_bdd_bibliotheque.
 1.analyse des besoins
 [Document sans titre.pdf](https://github.com/user-attachments/files/18068564/Document.sans.titre.pdf)
+
+
+
 2.Modelisation relationnelle
 <img width="1088" alt="Capture d’écran 2024-12-05 à 15 26 27" src="https://github.com/user-attachments/assets/2a78de11-ddc9-491d-8a62-09baa096f9d0">
 <img width="1172" alt="Capture d’écran 2024-12-05 à 15 26 08" src="https://github.com/user-attachments/assets/27edc8d8-33e9-4322-9cd4-1420afbce72f">
+
+
+
+
+
+
+
 4.5.6:: Création de la base de données,Insertion de données,Requêtes avancées 
 create database bibliotheque;
 use bibliotheque;
@@ -68,10 +78,23 @@ insert into reservation values(401,103,201,'2024-12-13');
 insert into reservation values(402,101,203,'2024-09-12');
 insert into reservation values(403,102,202,'2024-04-13');
 select * from reservation;
+
+
+
+
 7.Rapport final 
 Maintien de l'intégrité des données : La gestion des clés primaires et étrangères a été essentielle pour garantir que les relations entre les tables étaient respectées.
 Insertion de données cohérentes : Lors de l'insertion des données, nous avons dû nous assurer que les informations sur les livres, les membres, les emprunts et les réservations étaient réalistes et diversifiées pour tester efficacement les fonctionnalités.
 Requêtes complexes : Les jointures entre les tables ont été nécessaires pour obtenir des informations complexes, mais cela a ajouté de la complexité aux requêtes SQL.
+
+
+
+
+
+
+
+
+
 8.Conclusion
 Ce projet de gestion de bibliothèque nous a permis de concevoir une base de données relationnelle solide et de maîtriser l'utilisation des requêtes SQL pour gérer les livres, les membres, les emprunts et les réservations. Grâce à l'application des formes normales, nous avons évité les anomalies de données et avons optimisé la gestion des informations.
 
